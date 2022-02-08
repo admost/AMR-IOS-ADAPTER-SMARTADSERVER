@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterSmartadserver'
-  s.version          = '7.14.0.1'
+  s.version          = '7.15.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
   s.ios.deployment_target = '9.0'
-  s.vendored_libraries = 'AMRAdapterSmartadserver/Libs/libAMRAdapterSmartadserver.a'
-  s.dependency 'Smart-Display-SDK', '7.14.0'
-  s.dependency 'AMRSDK', '~> 1.5.0'
+  s.vendored_frameworks = 'AMRAdapterSmartadserver/Libs/AMRAdapterSmartadserver.xcframework'
+  s.dependency 'Smart-Display-SDK', '7.15.0'
+  s.dependency 'AMRSDK', '~> 1.5.6'
 end
