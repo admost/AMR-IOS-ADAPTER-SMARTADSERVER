@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterSmartadserver-Beta'
-  s.version          = '7.15.0.0'
+  s.version          = '7.17.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
-  s.dependency 'Smart-Display-SDK', '7.15.0'
+  s.dependency 'Smart-Display-SDK', '7.17.0'
   s.dependency 'AMRSDK-Beta', '~> 1.5.6'
 end
