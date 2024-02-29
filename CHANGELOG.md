@@ -3,6 +3,10 @@
 Changelog for AMRAdapterSmartadserver. 
 Smart-Display-SDK [changelog](https://documentation.smartadserver.com/displaySDK/ios/releasenotes.html)
 
+## [7.23.3.0] - 2024-02-29
+### Updated
+- Offical release for Smart-Display-SDK 7.23.3
+
 ## [7.23.2.0] - 2024-01-21
 ### Updated
 - Offical release for Smart-Display-SDK 7.23.2
