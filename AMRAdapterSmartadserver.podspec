@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'AMRAdapterSmartadserver/Libs/AMRAdapterSmartadserver.xcframework'
   s.pod_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC -lc++',
-    "VALID_ARCHS": "arm64 armv7 x86_64",
-    'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
+    "VALID_ARCHS": "arm64 x86_64",
+    'VALID_ARCHS[sdk=iphoneos*]' => 'arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'Smart-Display-SDK', '7.24.2'
